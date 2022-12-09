@@ -1,0 +1,16 @@
+MAKE PAGES AND LINK THEM:
+Make a page in views
+import, then in const route-> path and comp: in index.js in router
+then to link the pages -> make a file in component
+in that file, you add router link tag and link your pages
+
+To add Meta tags in each page ..
+1. add a meta array contaning name, content ex in ->const routes  in index.js
+2.get all the meta tags
+3. in router.beforeEach(to,from,next)=> {
+- loop through tags and remove each
+}
+4. make a for loop {for the meta tags you created to print
+5. next();
+}
+
